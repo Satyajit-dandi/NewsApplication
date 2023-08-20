@@ -122,6 +122,7 @@ export default class News extends Component {
                 //  };
 
                  render() {
+                  
                    return (
                      <>
                        <h2 className="text-center" style={{marginTop:'90px'}}>
@@ -141,6 +142,7 @@ export default class News extends Component {
                              {// !this.state.loading &&
                              this.state.articles.map((element) => {
                                return (
+                                
                                  <div className="col-md-4" key={element.url}>
                                    <NewsItem
                                      title={
